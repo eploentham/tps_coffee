@@ -30,12 +30,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".MemberView"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MemverView1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -45,123 +48,121 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".tps900.ocr.OcrIdCardActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.megnetic.MegneticActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.printer.PrinterActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.printer.UsbPrinterActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.rfid.ConsumeActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.idcard.IdCardActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.rfid.RfidActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.moneybox.MoneyBoxActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.rfid.UltralightActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.iccard.IccActivityNew"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.iccard.SLE4428Activity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.iccard.SLE4442Activity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.iccard.SmarCardNewActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.iccard.PsamActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.ir.IrActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.led.LedActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.led.LedActivity900"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.iccard.MonitorActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.decode.DecodeActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.nfc.NfcActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.rfid.CpuCardActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.nfc.NfcActivity_tps900"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
             android:name=".tps900.util.XuanXiang"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
-
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
     </application>
 
 </manifest>

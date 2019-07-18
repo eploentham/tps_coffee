@@ -6,6 +6,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 public class MemberView  extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
