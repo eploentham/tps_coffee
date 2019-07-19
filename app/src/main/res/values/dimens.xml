@@ -1,3 +1,7 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <!-- Used for mobile (non-tablet) devices -->
+    <dimen name="fab_margin_16">16dp</dimen>
+    <!--Used for tablet devices-->
+    <dimen name="fab_margin_24">24dp</dimen>
 </resources>
